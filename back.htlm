@@ -1,0 +1,78 @@
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Script Back 	| CARTÃO BASIC
+:: Alguns campos precisam ser inseridos!
+:: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+<div class="backtemplate">
+	{{FrontSide}}
+</div>
+
+<div class="note">
+	<div id="back" class="front extra">
+		{{Back}}
+	</div>
+</div>
+
+
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Script Back  - CARTÃO CLOZE
+:: 
+:: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+<div class="backtemplate">
+	{{FrontSide}}
+</div>
+<div class="note">
+	<div class="backcloze">
+		<div class="back k">
+			<div class="tags row">
+					{{cloze:Text}}
+			</div>
+		</div>
+	</div>
+</div>
+<div class="note">
+		<div id="extra" class="front extra">
+				{{Back Extra}}
+		</div>
+</div>
+
+
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Script Back 	| CARTÃO CLOZE and Insert Text
+:: Alguns campos precisam ser inseridos!
+:: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+
+<div class="backtemplate">
+	{{FrontSide}}
+</div>
+<div class="note">
+<div class="backcloze">
+	<div class="back k">
+		<div class="tags row">
+				{{cloze:Text}}
+		</div>
+	</div>
+</div>
+</div>
+
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Script Back 	| CARTÃO CLOZE and Insert Text
+:: Alguns campos precisam ser inseridos!
+:: 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+<div class="backtemplate">{{FrontSide}}</div>
+
+
