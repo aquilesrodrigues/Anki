@@ -1,0 +1,40 @@
+/** **************************************************************************
+*    Card Cloze One
+*    Insert front model
+*    create fields :Text, KeyWord, Listen, Language, Tip
+*   **************************************************************************
+*/
+
+<div class="note">
+<div class="front k">
+	{{#Tags}}<div class="tags row">{{Tags}}</div>{{/Tags}}
+	<div class="question row">
+		{{cloze:Text}}<br>
+		{{type:KeyWord}}
+		<hr id=answer>
+         {{Listen}}{{Language}}
+	</div>
+</div>
+</div>
+
+/** **************************************************************************
+*   Insert back model
+*   **************************************************************************
+*/
+
+<div class="backtemplate">
+	{{FrontSide}}
+</div>
+<div class="note">
+	<div class="backcloze">
+		<div class="back k">
+					{{cloze:Text}}
+		</div>
+	</div>
+</div>
+<div class="note">
+		<div id="extra" class="front extra">
+				{{Tip}}
+		</div>
+</div>
+
